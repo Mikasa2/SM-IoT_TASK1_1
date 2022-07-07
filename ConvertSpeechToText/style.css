@@ -1,0 +1,49 @@
+body {
+  background: #663399;
+  color: #A9A9A9;
+  font-size: 16px;
+}
+
+
+button:focus {
+    outline: 0;
+}
+
+.mycontainer {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 100px 100px;
+    text-align: center;
+}
+
+
+.mywebapp {
+    margin: 50px auto;
+}
+
+#textbox {
+    margin: 30px 0;
+	overflow-y:scroll;
+	width: 250px;
+	height: 150px;
+    resize: none;
+	font-size: 16px;
+}
+
+#start-btn{
+	font-size: 20px;
+	padding: 5px 10px;
+	border-radius: 10px;
+	border: 2px dashed #708090;
+}
+
+@media (max-width: 768px) {
+  .mycontainer {
+    width: 85vw;
+    max-width: 85vw;
+  }
+
+    button {
+        margin-bottom: 30px;
+}
+}
